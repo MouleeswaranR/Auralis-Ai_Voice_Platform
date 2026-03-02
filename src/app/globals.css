@@ -4,6 +4,9 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@source "../features/**/*.{tsx,ts}";
+@source "../components/**/*.{tsx,ts}";
+
 @theme inline {
     --color-background: var(--background);
     --color-foreground: var(--foreground);

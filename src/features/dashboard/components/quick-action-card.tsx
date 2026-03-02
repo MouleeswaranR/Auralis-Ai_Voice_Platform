@@ -17,10 +17,10 @@ export function QuickActionCard({
     <div className="flex gap-4 rounded-xl border bg-card p-3">
       {/* Visual placeholder with gradient */}
       <div
-        className={cn(
-          "relative h-31 w-41 shrink-0 overflow-hidden rounded-xl bg-linear-to-br",
-          gradient,
-        )}
+  className={cn(
+    "hidden sm:block relative h-32 w-40 shrink-0 overflow-hidden rounded-xl bg-linear-to-br",
+    gradient,
+  )}
       >
         {/* Decorative elements */}
         <div className="absolute inset-0 flex items-center justify-center">
