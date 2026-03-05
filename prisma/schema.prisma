@@ -13,6 +13,7 @@ datasource db {
   provider = "postgresql"
 }
 
+
 enum VoiceVariant{
   SYSTEM
   CUSTOM
@@ -20,7 +21,7 @@ enum VoiceVariant{
 
 enum VoiceCategory{
   AUDIOBOOK
-  CONVERSTAIONAL
+  CONVERSATIONAL
   CUSTOMER_SERVICE
   GENERAL
   NARRATIVE
@@ -30,7 +31,7 @@ enum VoiceCategory{
   PODCAST
   ADVERTISING
   VOICEOVER
-  CORPOARTE
+  CORPORATE
 }
 
 
@@ -71,5 +72,3 @@ model Generation{
   @@index([orgId])
   @@index([voiceId])
 }
-
-
